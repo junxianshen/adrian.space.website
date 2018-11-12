@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const hbs = require('express-hbs');
-var compression = require('compression')
+// var compression = require('compression')
 
 app.engine('hbs', hbs.express4({
     partialsDir: __dirname + '/views/partials'
@@ -25,7 +25,7 @@ app.set('views', __dirname + '/views');
 
 const routes = require('./routes');
 
-app.use(compression());
+// app.use(compression());
 app.use(express.static('public'));
 
 app.get('/favicon.ico', (req, res, next) =>{
