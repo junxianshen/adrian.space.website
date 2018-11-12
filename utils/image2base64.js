@@ -9,7 +9,19 @@ const imgList = [
 // slides
     "slides/02-dark.jpg",
     "slides/03-dark.jpg",
-    "slides/04-dark.jpg"
+    "slides/04-dark.jpg",
+// portfolio
+    "portfolio/01.jpg",
+    "portfolio/02.jpg",
+    "portfolio/03.jpg",
+    "portfolio/04.jpg",
+    "portfolio/05.jpg",
+    "portfolio/06.jpg",
+    "portfolio/07.jpg",
+    "portfolio/08.jpg",
+    "portfolio/09.jpg",
+    "portfolio/10.jpg",
+
 
 ];
 const imageJson = "images.json";
