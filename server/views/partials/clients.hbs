@@ -1,0 +1,19 @@
+<!-- our client -->
+<section id="client" class="our-client">
+    <div class="container">
+        {{> sub/sectionHeader title='Clients' description='Collaboration with our clients to create workspaces that
+        help them perform'}}
+        {{#each clientlogoRows}}
+        <div class="row">
+            {{#each this}}
+            <div class="col" style="text-align: center;">
+                <img style="margin-top: 40px; padding-left: 20px; padding-right: 20px; height: 50px; "
+                        alt="" 
+                        src="images/clients/{{this}}">
+            </div>
+            {{/each}}
+        </div>
+        {{/each}}
+    </div>
+</section>
+<!-- our client end -->
